@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2089268525A29B4200A4C415 /* RediCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089268425A29B4200A4C415 /* RediCompanionApp.swift */; };
+		2089268725A29B4200A4C415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089268625A29B4200A4C415 /* ContentView.swift */; };
+		2089268925A29B4400A4C415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2089268825A29B4400A4C415 /* Assets.xcassets */; };
+		2089268C25A29B4400A4C415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2089268B25A29B4400A4C415 /* Preview Assets.xcassets */; };
+		2089269625A29B8400A4C415 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089269525A29B8400A4C415 /* MainViewModel.swift */; };
+		2089269925A29B9A00A4C415 /* RedisItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089269825A29B9A00A4C415 /* RedisItem.swift */; };
+		2089269D25A29BC600A4C415 /* RedisItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089269C25A29BC600A4C415 /* RedisItemType.swift */; };
+		208926A125A29BFF00A4C415 /* RedisRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208926A025A29BFF00A4C415 /* RedisRepository.swift */; };
+		208926A525A29C4000A4C415 /* RediStack in Frameworks */ = {isa = PBXBuildFile; productRef = 208926A425A29C4000A4C415 /* RediStack */; };
+		208926A825A29C6B00A4C415 /* RedisItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208926A725A29C6A00A4C415 /* RedisItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2089268125A29B4200A4C415 /* RediCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RediCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2089268425A29B4200A4C415 /* RediCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RediCompanionApp.swift; sourceTree = "<group>"; };
+		2089268625A29B4200A4C415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2089268825A29B4400A4C415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2089268B25A29B4400A4C415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2089268D25A29B4400A4C415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2089268E25A29B4400A4C415 /* RediCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RediCompanion.entitlements; sourceTree = "<group>"; };
+		2089269525A29B8400A4C415 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2089269825A29B9A00A4C415 /* RedisItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisItem.swift; sourceTree = "<group>"; };
+		2089269C25A29BC600A4C415 /* RedisItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisItemType.swift; sourceTree = "<group>"; };
+		208926A025A29BFF00A4C415 /* RedisRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisRepository.swift; sourceTree = "<group>"; };
+		208926A725A29C6A00A4C415 /* RedisItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2089267E25A29B4200A4C415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208926A525A29C4000A4C415 /* RediStack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2089267825A29B4200A4C415 = {
+			isa = PBXGroup;
+			children = (
+				2089268325A29B4200A4C415 /* RediCompanion */,
+				2089268225A29B4200A4C415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2089268225A29B4200A4C415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2089268125A29B4200A4C415 /* RediCompanion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2089268325A29B4200A4C415 /* RediCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				208926AB25A29CAD00A4C415 /* UI */,
+				2089269B25A29BB500A4C415 /* Models */,
+				2089268425A29B4200A4C415 /* RediCompanionApp.swift */,
+				2089268825A29B4400A4C415 /* Assets.xcassets */,
+				2089268D25A29B4400A4C415 /* Info.plist */,
+				2089268E25A29B4400A4C415 /* RediCompanion.entitlements */,
+				2089268A25A29B4400A4C415 /* Preview Content */,
+				2089269525A29B8400A4C415 /* MainViewModel.swift */,
+				208926A025A29BFF00A4C415 /* RedisRepository.swift */,
+			);
+			path = RediCompanion;
+			sourceTree = "<group>";
+		};
+		2089268A25A29B4400A4C415 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2089268B25A29B4400A4C415 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2089269B25A29BB500A4C415 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2089269825A29B9A00A4C415 /* RedisItem.swift */,
+				2089269C25A29BC600A4C415 /* RedisItemType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		208926AB25A29CAD00A4C415 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2089268625A29B4200A4C415 /* ContentView.swift */,
+				208926A725A29C6A00A4C415 /* RedisItemView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2089268025A29B4200A4C415 /* RediCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2089269125A29B4400A4C415 /* Build configuration list for PBXNativeTarget "RediCompanion" */;
+			buildPhases = (
+				2089267D25A29B4200A4C415 /* Sources */,
+				2089267E25A29B4200A4C415 /* Frameworks */,
+				2089267F25A29B4200A4C415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RediCompanion;
+			packageProductDependencies = (
+				208926A425A29C4000A4C415 /* RediStack */,
+			);
+			productName = RediCompanion;
+			productReference = 2089268125A29B4200A4C415 /* RediCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2089267925A29B4200A4C415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2089268025A29B4200A4C415 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 2089267C25A29B4200A4C415 /* Build configuration list for PBXProject "RediCompanion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2089267825A29B4200A4C415;
+			packageReferences = (
+				208926A325A29C4000A4C415 /* XCRemoteSwiftPackageReference "RediStack" */,
+			);
+			productRefGroup = 2089268225A29B4200A4C415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2089268025A29B4200A4C415 /* RediCompanion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2089267F25A29B4200A4C415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2089268C25A29B4400A4C415 /* Preview Assets.xcassets in Resources */,
+				2089268925A29B4400A4C415 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2089267D25A29B4200A4C415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2089269925A29B9A00A4C415 /* RedisItem.swift in Sources */,
+				2089268725A29B4200A4C415 /* ContentView.swift in Sources */,
+				2089269D25A29BC600A4C415 /* RedisItemType.swift in Sources */,
+				2089268525A29B4200A4C415 /* RediCompanionApp.swift in Sources */,
+				208926A825A29C6B00A4C415 /* RedisItemView.swift in Sources */,
+				2089269625A29B8400A4C415 /* MainViewModel.swift in Sources */,
+				208926A125A29BFF00A4C415 /* RedisRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2089268F25A29B4400A4C415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2089269025A29B4400A4C415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2089269225A29B4400A4C415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RediCompanion/RediCompanion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RediCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8X4D3A8MT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RediCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inderdhir.RediCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2089269325A29B4400A4C415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RediCompanion/RediCompanion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RediCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8X4D3A8MT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RediCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inderdhir.RediCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2089267C25A29B4200A4C415 /* Build configuration list for PBXProject "RediCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2089268F25A29B4400A4C415 /* Debug */,
+				2089269025A29B4400A4C415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2089269125A29B4400A4C415 /* Build configuration list for PBXNativeTarget "RediCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2089269225A29B4400A4C415 /* Debug */,
+				2089269325A29B4400A4C415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		208926A325A29C4000A4C415 /* XCRemoteSwiftPackageReference "RediStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/mordil/RediStack.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		208926A425A29C4000A4C415 /* RediStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 208926A325A29C4000A4C415 /* XCRemoteSwiftPackageReference "RediStack" */;
+			productName = RediStack;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2089267925A29B4200A4C415 /* Project object */;
+}
